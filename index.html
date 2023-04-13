@@ -5,61 +5,78 @@
     <meta charset="UTF-8" />
     <meta name="description" content="WebStudio" />
     <title>WebStudio version 3.0</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,800;1,700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- head of the page -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="nav-list">
+        <a class="Logo-link" href="./index.html"
+          >Web<span class="studioword">Studio</span></a
+        >
+        <ul class="nav-list">
+          <li><a class="nav-studio-link" href="">Studio</a></li>
+          <li><a class="nav-portfolio-link" href="">Portfolio</a></li>
+          <li><a class="nav-contacts-link" href="">Contacts</a></li>
         </ul>
       </nav>
+      <!-- Addresses -->
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="email-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="phone-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <!-- Main content -->
     <main>
       <!-- Hero section -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="main-text">Effective Solutions for Your Business</h1>
+        <button class="button" type="button">Order Service</button>
       </section>
       <!-- Features -->
       <section>
         <h2>Features</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="subject-features">Strategy</h3>
+            <p class="text-features">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="subject-features">Punctuality</h3>
+            <p class="text-features">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="subject-features">Diligence</h3>
+            <p class="text-features">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="subject-features">Technologies</h3>
+            <p class="text-features">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -68,14 +85,19 @@
       </section>
       <!-- What are we doing -->
       <section>
-        <h2>What are we doing</h2>
+        <h2 class="title">What are we doing</h2>
         <ul>
           <li>
-            <img src="./images/img1.jpg" alt="Immac" width="360" height="300" />
+            <img
+              src="./images/img-first-page/img1.jpg"
+              alt="Immac"
+              width="360"
+              height="300"
+            />
           </li>
           <li>
             <img
-              src="./images/img2.jpg"
+              src="./images/img-first-page/img2.jpg"
               alt="Iphones"
               width="360"
               height="300"
@@ -83,7 +105,7 @@
           </li>
           <li>
             <img
-              src="./images/img3.jpg"
+              src="./images/img-first-page/img3.jpg"
               alt="cellphone-icon"
               width="360"
               height="300"
@@ -92,60 +114,62 @@
         </ul>
       </section>
       <!-- Team section -->
-      <section>
-        <h2>Our Team</h2>
+      <section class="team-section">
+        <h2 class="title">Our Team</h2>
         <ul>
           <!-- Mark Guerrero -->
           <li>
             <img
-              src="./images/Teammempber1.jpg"
+              src="./images/img-first-page/Teammempber1.jpg"
               alt="Mark-Guerrero"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="name-text">Mark Guerrero</h3>
+            <p class="position-text">Product Designer</p>
           </li>
           <!-- Tom-Ford -->
           <li>
             <img
-              src="./images/Teammempber2.jpg"
+              src="./images/img-first-page/Teammempber2.jpg"
               alt="Tom-Ford"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name-text">Tom Ford</h3>
+            <p class="position-text">Frontend Developer</p>
           </li>
           <!-- Camila-Garcia -->
           <li>
             <img
-              src="./images/Teammempber3.jpg"
+              src="./images/img-first-page/Teammempber3.jpg"
               alt="Camila-Garcia"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="name-text">Camila Garcia</h3>
+            <p class="position-text">Marketing</p>
           </li>
           <!-- Daniel-Wilson -->
           <li>
             <img
-              src="./images/Teammempber4.jpg"
+              src="./images/img-first-page/Teammempber4.jpg"
               alt="Daniel-Wilson"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="name-text">Daniel Wilson</h3>
+            <p class="position-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer section -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="Footer-Logo-link" href="./index.html"
+        >Web<span class="footer-second-logoword">Studio</span></a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

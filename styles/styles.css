@@ -11,8 +11,6 @@
 }
 /* LOGO */
 .studioword {
-  width: 71px;
-  height: 21px;
   font-family: var(--Logo-text);
   font-style: normal;
   font-weight: 800;
@@ -24,13 +22,11 @@
 }
 .Logo-link {
   text-decoration: none;
-  width: 44px;
-  height: 21px;
   font-family: var(--Logo-text);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -47,7 +43,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
   text-decoration: none;
@@ -64,7 +60,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-decoration: none;
@@ -79,7 +75,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-decoration: none;
@@ -94,7 +90,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -106,8 +102,9 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #ffffff;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -120,7 +117,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
@@ -130,7 +127,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
@@ -141,7 +138,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -157,7 +154,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -168,7 +165,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -192,7 +189,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -204,7 +201,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
@@ -212,15 +209,16 @@
 /* Portfolio page */
 /* Header is the same as at the main page */
 /* Filters section */
-
+/* buttons menu */
 .filter-button {
   background: #f4f4fd;
   font-family: var(--main-text);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #4d5ae5;
+  cursor: pointer;
 }
 .main {
   background: #404bbf;
@@ -230,8 +228,9 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: #ffffff;
+  cursor: pointer;
 }
 /* Portfolio-links-section */
 .portfolio-links .link {
@@ -243,7 +242,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--title-color);
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -253,7 +252,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--text-color);
 }
 /* Portfolio Footer */

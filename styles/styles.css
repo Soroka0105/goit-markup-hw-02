@@ -109,8 +109,8 @@
   line-height: 24px;
   color: #ffffff;
 }
-.button:hover, 
-.button:focus: {
+.button:hover,
+.button:focus {
   background: var(--hover-color);
 }
 /* Features */
@@ -213,8 +213,6 @@
 /* Header is the same as at the main page */
 /* Filters section */
 
-.filters-title {
-}
 .filter-button {
   background: #f4f4fd;
   font-family: var(--main-text);

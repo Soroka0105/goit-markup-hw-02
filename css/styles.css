@@ -1,11 +1,18 @@
 :root {
   --title-color: #2e2f42;
   --text-color: #434455;
+  --button-text-collor: #4d5ae5;
+  --button-bacground-collor: #f4f4fd;
   --main-text: Roboto;
   --Logo-text: Raleway;
   --hover-color: #404bbf;
+  --main-bacground-color: #ffffff;
 }
-
+body {
+  font-family: var(--main-text);
+  color: var(--text-color);
+  background-color: var(--main-bacground-color);
+}
 .header {
   background-color: #ffffff;
 }
@@ -15,29 +22,30 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-.Logo-link {
+.logo-link {
   text-decoration: none;
   font-family: var(--Logo-text);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 /* Navigation */
 
-.nav-link .link {
+.nav {
+  list-style: none;
+}
+
+.nav-list .link {
   font-family: var(--main-text);
   font-style: normal;
   text-decoration: none;
@@ -48,8 +56,8 @@
   color: var(--title-color);
   text-decoration: none;
 }
-.nav-link .link:hover,
-.nav-link .link:focus {
+.nav-list .link:hover,
+.nav-list .link:focus {
   color: var(--hover-color);
   text-decoration: underline;
 }
@@ -103,6 +111,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
 }
@@ -117,7 +126,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
@@ -147,6 +156,9 @@
 /* Team section */
 .team-section {
   background: #f4f4fd;
+}
+.team-member {
+  background: var(--main-bacground-color);
 }
 .name-text {
   font-weight: 800;
@@ -189,7 +201,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -211,13 +223,14 @@
 /* Filters section */
 /* buttons menu */
 .filter-button {
-  background: #f4f4fd;
+  background: var(--button-bacground-collor);
   font-family: var(--main-text);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  letter-spacing: 0.04em;
+  color: var(--button-text-collor);
   cursor: pointer;
 }
 .main {
@@ -233,8 +246,9 @@
   cursor: pointer;
 }
 /* Portfolio-links-section */
-.portfolio-links .link {
+.portfolio-list .link {
   text-decoration: none;
+  list-style: none;
 }
 
 .main-text {
@@ -242,7 +256,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   color: var(--title-color);
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -253,6 +267,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 /* Portfolio Footer */

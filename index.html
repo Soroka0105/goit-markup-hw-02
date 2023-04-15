@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="description" content="WebStudio" />
     <title>WebStudio version 3.0</title>
@@ -16,20 +16,19 @@
   <body>
     <!-- head of the page -->
     <header class="header">
-      <li><a class="menu-list" href=""></a></li>
-      <nav class="nav-list">
-        <a class="Logo-link" href="./index.html"
+      <nav class="nav">
+        <a class="logo-link" href="./index.html"
           >Web<span class="studioword">Studio</span></a
         >
-        <ul class="nav-link">
-          <li><a class="link" href="">Studio</a></li>
+        <ul class="nav-list">
+          <li><a class="link" href="./index.html">Studio</a></li>
           <li><a class="link" href="./portfolio.html">Portfolio</a></li>
           <li><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
       <!-- Addresses -->
-      <address>
-        <ul>
+      <address class="address">
+        <ul class="contacts-list">
           <li>
             <a class="email-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -52,8 +51,8 @@
       </section>
       <!-- Features -->
       <section class="futures">
-        <h2>Features</h2>
-        <ul>
+        <h2 hidden class="features-title">Features</h2>
+        <ul class="features-list">
           <li>
             <h3 class="subject-features">Strategy</h3>
             <p class="text-features">
@@ -87,7 +86,7 @@
       <!-- What are we doing -->
       <section>
         <h2 class="title">What are we doing</h2>
-        <ul>
+        <ul class="business-list">
           <li>
             <img
               src="./images/img-first-page/img1.jpg"
@@ -117,9 +116,9 @@
       <!-- Team section -->
       <section class="team-section">
         <h2 class="title">Our Team</h2>
-        <ul>
+        <ul class="team-list">
           <!-- Mark Guerrero -->
-          <li>
+          <li class="team-member">
             <img
               src="./images/img-first-page/Teammempber1.jpg"
               alt="Mark-Guerrero"
@@ -130,7 +129,7 @@
             <p class="position-text">Product Designer</p>
           </li>
           <!-- Tom-Ford -->
-          <li>
+          <li class="team-member">
             <img
               src="./images/img-first-page/Teammempber2.jpg"
               alt="Tom-Ford"
@@ -141,7 +140,7 @@
             <p class="position-text">Frontend Developer</p>
           </li>
           <!-- Camila-Garcia -->
-          <li>
+          <li class="team-member">
             <img
               src="./images/img-first-page/Teammempber3.jpg"
               alt="Camila-Garcia"
@@ -152,7 +151,7 @@
             <p class="position-text">Marketing</p>
           </li>
           <!-- Daniel-Wilson -->
-          <li>
+          <li class="team-member">
             <img
               src="./images/img-first-page/Teammempber4.jpg"
               alt="Daniel-Wilson"

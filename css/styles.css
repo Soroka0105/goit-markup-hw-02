@@ -9,7 +9,7 @@
   --main-bacground-color: #ffffff;
 }
 body {
-  font-family: var(--main-text);
+  font-family: Roboto;
   color: var(--text-color);
   background-color: var(--main-bacground-color);
 }
@@ -18,7 +18,7 @@ body {
 }
 /* LOGO */
 .studioword {
-  font-family: var(--Logo-text);
+  font-family: Raleway;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;

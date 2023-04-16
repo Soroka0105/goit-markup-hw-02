@@ -8,6 +8,12 @@
   --hover-color: #404bbf;
   --main-bacground-color: #ffffff;
 }
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
@@ -29,7 +35,7 @@ body {
 }
 .logo-link {
   text-decoration: none;
-  font-family: var(--Logo-text);
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -60,6 +66,9 @@ body {
 }
 
 /* Addresses */
+.address {
+  font-style: normal;
+}
 .email-link {
   font-family: var(--main-text);
   font-style: normal;
@@ -89,7 +98,7 @@ body {
 .hero {
   background: #2e2f42;
 }
-.main-text {
+.hero-title {
   font-weight: 800;
   font-family: var(--main-text);
   font-style: normal;
@@ -103,7 +112,7 @@ body {
 .button {
   background: #4d5ae5;
   font-weight: 800;
-  font-family: var(--main-text);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -183,12 +192,13 @@ body {
 .footer {
   background: var(--title-color);
 }
-.Footer-Logo-link {
+.footer-logo-link {
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
